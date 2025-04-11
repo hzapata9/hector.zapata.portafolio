@@ -130,3 +130,39 @@
       width: 90%;
     }
   }
+
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #0a192f;
+    padding: 10px 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li a {
+    color: #64ffda;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  .navbar li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Para compensar el espacio del navbar fijo */
+  body {
+    padding-top: 60px;
+  }
+  
