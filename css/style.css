@@ -184,3 +184,45 @@
 #contacto i:hover {
   color: #0073b1; /* Color al pasar el mouse */
 }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+
+a {
+  color: #0073b1;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+:root {
+  --primary-color: #0073b1;
+  --secondary-color: #f4f4f4;
+  --accent-color: #ff6600;
+}
+
+body {
+  background-color: var(--secondary-color);
+  color: #333;
+}
+
+a {
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--accent-color);
+}
+
