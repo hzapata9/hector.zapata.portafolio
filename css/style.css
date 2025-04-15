@@ -173,3 +173,14 @@
     scroll-behavior: smooth;
   }
   
+  /* Estilo para los íconos */
+#contacto i {
+  font-size: 2rem;
+  margin-right: 10px;
+  color: #333;
+  transition: color 0.3s;
+}
+
+#contacto i:hover {
+  color: #0073b1; /* Color al pasar el mouse */
+}
